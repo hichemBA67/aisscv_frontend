@@ -13,12 +13,12 @@ const Banner = () => {
       <ModalVideo
         channel="youtube"
         isOpen={isOpen}
-        videoId="1YyAzVmP9xQ"
+        videoId="6ERkzYlu3Os"
         onClose={() => setOpen(false)}
       />
 
       <div className="mx-auto max-w-7xl pt-16 lg:pt-40 sm:pb-24 px-6">
-        <div className="height-work">
+        <div className="height-Architecture">
           <div className="grid grid-cols-1 lg:grid-cols-12 my-16">
             <div className="arrowTwo"></div>
             <div className="col-span-7">
@@ -45,7 +45,7 @@ const Banner = () => {
                     width={47}
                     height={47}
                   />
-                  Video
+                  Demo
                 </button>
               </div>
             </div>

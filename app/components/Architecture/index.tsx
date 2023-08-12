@@ -1,16 +1,16 @@
 "use client";
 import Image from "next/image";
 
-interface workdata {
+interface Architecturedata {
   imgSrc: string;
   heading: string;
   subheading: string;
   hiddenpara: string;
 }
 
-const workdata: workdata[] = [
+const Architecturedata: Architecturedata[] = [
   {
-    imgSrc: "/images/Work/nvidia.png",
+    imgSrc: "/images/Architecture/nvidia.png",
     heading: "Jetson Nano",
     subheading:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this",
@@ -18,7 +18,7 @@ const workdata: workdata[] = [
       "standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...",
   },
   {
-    imgSrc: "/images/Work/angular.png",
+    imgSrc: "/images/Architecture/angular.png",
     heading: "Front-End",
     subheading:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this",
@@ -26,7 +26,7 @@ const workdata: workdata[] = [
       "standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...",
   },
   {
-    imgSrc: "/images/Work/flask.png",
+    imgSrc: "/images/Architecture/flask.png",
     heading: "Back-End",
     subheading:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this",
@@ -35,7 +35,7 @@ const workdata: workdata[] = [
   },
 ];
 
-const Work = () => {
+const Architecture = () => {
   return (
     <div>
       <div className="mx-auto max-w-7xl mt-16 px-6 mb-20 relative">
@@ -52,9 +52,9 @@ const Work = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32">
-          {workdata.map((items, i) => (
+          {Architecturedata.map((items, i) => (
             <div className="card-b p-8" key={i}>
-              <div className="work-img-bg rounded-full flex justify-center absolute p-6">
+              <div className="Architecture-img-bg rounded-full flex justify-center absolute p-6">
                 <Image
                   src={items.imgSrc}
                   alt={items.imgSrc}
@@ -64,7 +64,7 @@ const Work = () => {
               </div>
               <div>
                 <Image
-                  src={"/images/Work/bg-arrow.svg"}
+                  src={"/images/Architecture/bg-arrow.svg"}
                   alt="arrow-bg"
                   width={85}
                   height={35}
@@ -88,4 +88,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Architecture;

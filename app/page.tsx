@@ -1,7 +1,7 @@
 import Banner from "./components/Banner/index";
 import Companies from "./components/Companies/index";
 import Architecture from "./components/Architecture/index";
-import Table from "./components/Table/index";
+import Performance from "./components/Performance/index";
 import Features from "./components/Features/index";
 import Simple from "./components/Simple/index";
 import Trade from "./components/Trade/index";
@@ -13,7 +13,7 @@ export default function Home() {
       <Banner />
       <Companies />
       <Architecture />
-      <Table />
+      <Performance />
       <Features />
       <Simple />
       <Trade />

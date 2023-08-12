@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/index";
 import Footer from "./components/Footer/index";
 
 export const metadata = {
-  title: "Lego Robot Helper",
+  title: "AISS:CV Documentation",
   description:
     "Artificial Intelligence in Service Systems: Application in Computer Vision",
   icons: {

@@ -13,12 +13,12 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: "Use Case", href: "#home-section", current: false },
+  { name: "Use Case", href: "#usecase-section", current: false },
+  { name: "Parts Formalization", href: "#features-section", current: false },
+  { name: "Model Choice", href: "#features-section", current: false },
   { name: "Performance", href: "#performance-section", current: false },
-  { name: "Model System", href: "#features-section", current: false },
-  { name: "Architecture", href: "#faq-section", current: false },
+  { name: "Architecture", href: "#architecture-section", current: false },
   { name: "Deployment", href: "#faq-section", current: false },
-  { name: "Appendix", href: "#faq-section", current: false },
 ];
 
 function classNames(...classes: string[]) {

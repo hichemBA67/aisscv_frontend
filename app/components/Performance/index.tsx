@@ -21,7 +21,7 @@ const performanceData: performanceData[] = [
     model: "YOLOv5",
     dataset: "v3_0",
     datasetLink: "https://app.roboflow.com/aisscv-ffp8r/aiss_cv-sx8yb/6",
-    subModel: "m",
+    subModel: "medium",
     weights: "yolov5m.pt",
     modelLink:
       "https://git.scc.kit.edu/aiss_cv/yolo_models/yolov5/-/blob/main/v3_0_640x_128b_300e_noStartWeightsW_v5m-model/weights/best.pt",
@@ -51,7 +51,7 @@ const performanceData: performanceData[] = [
     model: "YOLOv8",
     dataset: "v3_0",
     datasetLink: "https://app.roboflow.com/aisscv-ffp8r/aiss_cv-sx8yb/6",
-    subModel: "n",
+    subModel: "nano",
     weights: "yolov8n.pt",
     modelLink:
       "https://git.scc.kit.edu/aiss_cv/yolo_models/yolov8/-/blob/main/vfinal_640x_16b_300e_V8nW_v8n_best_pt-model/weights/best.pt",
@@ -72,10 +72,17 @@ const Performance = () => {
             Performance
           </h3>
           <p className="text-bluish md:text-lg font-normal leading-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. <br /> Lorem Ipsum has been the industry standard dummy
-            text ever.
+            We trained over 15 models for YOLOv5, YOLOv7 & YOLOv8. <br /> Here
+            are the performances of each for the last version of the data set.
           </p>
+          <small className="text-offwhite">
+            <a
+              href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/Performance.md"
+              className="hover-underlined"
+            >
+              Detailed documentation
+            </a>
+          </small>
         </div>
         <div className="performance-b bg-navyblue p-8 overflow-x-auto">
           <h3 className="text-offwhite text-2xl">Top Model Performances</h3>

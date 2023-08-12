@@ -13,32 +13,33 @@ const Architecturedata: Architecturedata[] = [
     imgSrc: "/images/Architecture/nvidia.png",
     heading: "Jetson Nano",
     subheading:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this",
+      "The Jetson Nano is our system's backbone, leveraging the YOLO model for image analysis.",
     hiddenpara:
-      "standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...",
+      "The Nano continuously processes video streams from the camera feed, enabling real-time object detection. Using WebSockets for efficient real-time communication to the frontend.",
   },
   {
     imgSrc: "/images/Architecture/angular.png",
-    heading: "Front-End",
+    heading: "Frontend",
     subheading:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this",
+      "Our frontend is built using Angular, focused on a user-centric design.",
     hiddenpara:
-      "standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...",
+      "It offers a user interface for the two use cases. The frontend is optimized for a seamless real-time interactions with the Jetson Nano.",
   },
   {
     imgSrc: "/images/Architecture/flask.png",
-    heading: "Back-End",
-    subheading:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this",
+    heading: "Backend",
+    subheading: "A RESTful backend aiding in LEGO robot assembly using Flask.",
     hiddenpara:
-      "standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...",
+      "The server offers endpoints which provide instructions based on assembly state, and checking the completeness of LEGO parts. It efficiently bridges the computer vision system with essential data for the LEGO assembly process.",
   },
 ];
-
 const Architecture = () => {
   return (
     <div>
-      <div className="mx-auto max-w-7xl mt-16 px-6 mb-20 relative">
+      <div
+        className="mx-auto max-w-7xl mt-16 px-6 mb-20 relative"
+        id="architecture-section"
+      >
         <div className="radial-bgone hidden lg:block"></div>
         <div className="text-center mb-14">
           <h3 className="text-offwhite text-3xl md:text-5xl font-bold mb-3">
@@ -49,6 +50,14 @@ const Architecture = () => {
             industry. <br /> Lorem Ipsum has been the industry standard dummy
             text ever.
           </p>
+          <small className="text-offwhite">
+            <a
+              href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/Architecture.md"
+              className="hover-underlined"
+            >
+              Detailed documentation
+            </a>
+          </small>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32">

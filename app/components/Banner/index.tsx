@@ -26,14 +26,24 @@ const Banner = () => {
                 AISS: <br /> Application in Computer Vision
               </h1>
               <p className="text-white md:text-lg font-normal mb-10 md:text-start text-center">
-                Lorem Ipsum is simply dummy text of the printing and <br />{" "}
-                typesetting industry. Lorem Ipsum has been the industry <br />{" "}
-                standard dummy text ever since the 1500s
+                Hey! We&apos;re group 3. Welcome to our documentation for
+                <br />
+                the Artificial Intelligence in Service System: Application in
+                Computer Vision project documentation. This is by no means the
+                full documentation. This website should give you an appealing
+                insight into our project experice. By clicking the button below,{" "}
+                you can access our full documentation <br /> on gitlab. By
+                clicking the play button, you can see a short demo of our
+                prototype.
               </p>
               <div className="flex align-middle justify-center md:justify-start">
-                <button className="text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6">
-                  Get Started
-                </button>
+                <a
+                  className="text-xl font-semibold text-white py-4 px-6 lg:px-12 navbutton mr-6"
+                  href="https://git.scc.kit.edu/aiss_cv/documentation"
+                  target="_blank"
+                >
+                  Full Documentation
+                </a>
                 <button
                   onClick={() => setOpen(true)}
                   className="bg-transparent flex justify-center items-center text-white"

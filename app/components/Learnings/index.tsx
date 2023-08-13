@@ -34,14 +34,14 @@ const faqdata: faqdata[] = [
 
 const Learnings = () => {
   return (
-    <div className="my-20 px-6 pt-40" id="faq-section">
+    <div className="my-20 px-6 pt-40" id="learnings-section">
       <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">
         Learnings
       </h3>
       <p className="text-center lg:text-lg font-normal text-bluish">
-        Over the period of this project, we faced a number of challenges. <br />
-        We tried to solve them to best of our ability. Here you can see a short
-        sneak peek. <br />
+        We&apos;ve learned a lot during this project. Here are are a few
+        selected learnings. <br /> For a full description, view the detailed
+        documentation. <br />
         <small className="text-offwhite text-center">
           <a
             href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/Learnings.md"

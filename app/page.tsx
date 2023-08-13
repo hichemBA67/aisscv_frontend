@@ -17,9 +17,9 @@ export default function Home() {
       <Architecture />
       <Features />
       <HPC />
-      <Simple />
       <Faq />
       <Learnings />
+      <Simple />
     </main>
   );
 }

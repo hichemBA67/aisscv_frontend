@@ -77,8 +77,9 @@ const Performance = () => {
           </p>
           <small className="text-offwhite">
             <a
-              href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/Performance.md"
+              href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/Training/Performance.md"
               className="hover-underlined"
+              target="_blank"
             >
               Detailed documentation
             </a>

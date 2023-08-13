@@ -39,8 +39,9 @@ const footer = () => {
           <div className="col-span-6">
             <h3 className="text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16">
               {" "}
-              Here you&apos;ll find the our repository group on github. From
-              there you&apos;ll find all the relevant code for this project.
+              <u>Disclaimer:</u> This website is not the entire documentation.
+              It serves as an illustration of the key aspects of our project and
+              documentation.
             </h3>
             <div className="flex gap-4">
               {socialLinks.map((items, i) => (

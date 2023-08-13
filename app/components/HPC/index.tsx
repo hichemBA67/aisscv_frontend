@@ -25,6 +25,15 @@ const HPC = () => {
           <h5 className="text-xl lg:text-xl font-semibold text-offwhite mb-6 text-center sm:text-start">
             Unlimited Training Resources
           </h5>
+          <small className="text-offwhite text-center">
+            <a
+              href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/Training/HPC.md"
+              className="hover-underlined"
+              target="_blank"
+            >
+              Detailed documentation
+            </a>
+          </small>
           <p className="lg:text-lg font-normal text-lightblue mb-16 text-center sm:text-start">
             We were given the opportunity to use the powerful high-performance
             cluster{" "}
@@ -38,6 +47,7 @@ const HPC = () => {
             framework for all three YOLO versions and a template for job
             scripts. You can try them via the links below.
           </p>
+
           <div className="flex justify-between">
             <a
               href="https://git.scc.kit.edu/aiss_cv/hpc_enabled_frameworks/yolov5"

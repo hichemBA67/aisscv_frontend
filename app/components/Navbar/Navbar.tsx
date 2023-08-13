@@ -17,7 +17,7 @@ const navigation: NavigationItem[] = [
   { name: "Architecture", href: "#architecture-section", current: false },
   { name: "Performance", href: "#performance-section", current: false },
   { name: "HPC", href: "#hpc-section", current: false },
-  { name: "Challenges", href: "#faq-section", current: false },
+  { name: "Challenges", href: "#challenges-section", current: false },
   { name: "Learnings", href: "#learnings-section", current: false },
   { name: "Repos", href: "#repos-section", current: false },
 ];

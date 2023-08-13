@@ -2,14 +2,17 @@ import Image from "next/image";
 
 const HPC = () => {
   return (
-    <div className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative">
+    <div
+      className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative"
+      id="hpc-section"
+    >
       <div className="radial-bgone hidden lg:block"></div>
 
       <div className="grid lg:grid-cols-2 gap-x-5">
         {/* Column-1 */}
         <div>
           <Image
-            src={"/images/HPC/hpc.png"}
+            src={"/images/HPC/hpc1.png"}
             alt="macBook-image"
             width={787}
             height={512}

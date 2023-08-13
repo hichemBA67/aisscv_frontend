@@ -196,7 +196,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simpleone {
   position: absolute;
-  background-image: url("/images/Simple/arrowone.svg");
+  background-image: url("/images/Repos/arrowone.svg");
   top: 57%;
   left: 0%;
   width: 9%;
@@ -207,7 +207,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simpletwo {
   position: absolute;
-  background-image: url("/images/Simple/arrowtwo.svg");
+  background-image: url("/images/Repos/arrowtwo.svg");
   top: 15%;
   left: 5%;
   width: 9%;
@@ -218,7 +218,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simplethree {
   position: absolute;
-  background-image: url("/images/Simple/arrowthree.svg");
+  background-image: url("/images/Repos/arrowthree.svg");
   top: 80%;
   left: 8%;
   width: 9%;
@@ -229,7 +229,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simplefour {
   position: absolute;
-  background-image: url("/images/Simple/arrowfour.svg");
+  background-image: url("/images/Repos/arrowfour.svg");
   top: 32%;
   left: 21%;
   width: 9%;
@@ -240,7 +240,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simplefive {
   position: absolute;
-  background-image: url("/images/Simple/arrowfive.svg");
+  background-image: url("/images/Repos/arrowfive.svg");
   top: 84%;
   left: 33%;
   width: 9%;
@@ -251,7 +251,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simplesix {
   position: absolute;
-  background-image: url("/images/Simple/arrowsix.svg");
+  background-image: url("/images/Repos/arrowsix.svg");
   top: 79%;
   left: 63%;
   width: 9%;
@@ -262,7 +262,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simpleseven {
   position: absolute;
-  background-image: url("/images/Simple/arrowseven.svg");
+  background-image: url("/images/Repos/arrowseven.svg");
   top: 47%;
   left: 70%;
   width: 9%;
@@ -273,7 +273,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simpleeight {
   position: absolute;
-  background-image: url("/images/Simple/arroweight.svg");
+  background-image: url("/images/Repos/arroweight.svg");
   top: 70%;
   left: 78%;
   width: 9%;
@@ -284,7 +284,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simplenine {
   position: absolute;
-  background-image: url("/images/Simple/arrownine.svg");
+  background-image: url("/images/Repos/arrownine.svg");
   top: 26%;
   left: 82%;
   width: 9%;
@@ -295,7 +295,7 @@ html:not([data-scroll="0"]) .navbar {
 
 .simpleten {
   position: absolute;
-  background-image: url("/images/Simple/arrowten.svg");
+  background-image: url("/images/Repos/arrowten.svg");
   top: 50%;
   right: 0%;
   width: 4%;
@@ -427,6 +427,15 @@ th:last-child {
 .image-link:hover img {
   transform: scale(1.1);
   transition: transform 0.3s;
+}
+
+.card-link {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card-link:hover {
+  transform: scale(1.03);
 }
 
 .flipped-svg {

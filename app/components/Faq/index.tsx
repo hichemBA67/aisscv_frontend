@@ -23,13 +23,13 @@ const faqdata: faqdata[] = [
   {
     heading: "Time",
     subheading: "Tight timelines, tighter ambitions",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into",
+    text: "Due to overlapping academic responsibilities, our project timeline faced constraints. To address this, we divided the team into specialized subgroups, each handling specific project components, leveraging individual expertise. Regular weekly meetings, either in-person or online, ensured consistent progress checks and planning. This combination of subgrouping and continuous communication enabled us to work on multiple project aspects simultaneously, ensuring a balanced workload among members. Our experience highlighted the value of time management, structured teamwork, and continuous dialogue in navigating tight schedules.",
   },
 ];
 
 const Faq = () => {
   return (
-    <div className="my-20 px-6 pt-40" id="faq-section">
+    <div className="my-20 px-6 pt-40" id="challenges-section">
       <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">
         Challenges & Solutions
       </h3>

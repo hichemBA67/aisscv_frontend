@@ -14,12 +14,12 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: "Use Case", href: "#usecase-section", current: false },
-  { name: "Performance", href: "#performance-section", current: false },
   { name: "Architecture", href: "#architecture-section", current: false },
+  { name: "Performance", href: "#performance-section", current: false },
+  { name: "HPC", href: "#hpc-section", current: false },
   { name: "Challenges", href: "#faq-section", current: false },
   { name: "Learnings", href: "#learnings-section", current: false },
-  { name: "Repos", href: "#faq-section", current: false },
-  { name: "Documentation", href: "#faq-section", current: false },
+  { name: "Repos", href: "#repos-section", current: false },
 ];
 
 function classNames(...classes: string[]) {

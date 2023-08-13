@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 // MIDDLE LINKS DATA
-interface ProductType {
+interface ItemType {
   id: number;
   section: string;
-  link: string[];
+  title: string[];
+  links: string[];
 }
 
 interface Social {
@@ -13,11 +14,16 @@ interface Social {
   href: string;
 }
 
-const products: ProductType[] = [
+const items: ItemType[] = [
   {
     id: 1,
-    section: "Useful Links",
-    link: ["Home", "Exchange", "Features", "FAQ"],
+    section: "Links",
+    title: ["Repositories", "Documentation", "Frontend"],
+    links: [
+      "https://git.scc.kit.edu/aiss_cv",
+      "https://git.scc.kit.edu/aiss_cv/documentation",
+      "https://aisscv-ui.vercel.app/",
+    ],
   },
 ];
 
@@ -58,17 +64,18 @@ const footer = () => {
 
           {/* CLOUMN-2/3 */}
 
-          {products.map((product) => (
-            <div key={product.id} className="group relative col-span-2">
+          {items.map((item) => (
+            <div key={item.id} className="group relative col-span-2">
               <p className="text-white text-xl font-medium mb-9">
-                {product.section}
+                {item.section}
               </p>
               <ul>
-                {product.link.map((link: string, index: number) => (
+                {item.title.map((link: string, index: number) => (
                   <li key={index} className="mb-5">
                     <Link
-                      href="/"
+                      href={item.links[index]}
                       className="text-offwhite  text-sm font-normal mb-6 space-links"
+                      target="_blank"
                     >
                       {link}
                     </Link>

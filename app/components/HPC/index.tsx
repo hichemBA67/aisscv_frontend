@@ -3,7 +3,7 @@ import Image from "next/image";
 const HPC = () => {
   return (
     <div
-      className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative"
+      className="mx-auto max-w-7xl mt-48 mb-16 px-6 relative pt-50"
       id="hpc-section"
     >
       <div className="radial-bgone hidden lg:block"></div>

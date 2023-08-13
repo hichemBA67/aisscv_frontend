@@ -181,7 +181,7 @@ html:not([data-scroll="0"]) .navbar {
 }
 
 .gg {
-  background: linear-gradient(90deg, #bd24df 0%, #2d6ade 97.15%);
+  background: linear-gradient(90deg, #fef9ff 0%, #e6cefd 97.15%);
 }
 
 /* Simple Section */
@@ -432,10 +432,13 @@ th:last-child {
 .card-link {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
+  width: 18rem;
+  height: 18rem;
 }
 
 .card-link:hover {
   transform: scale(1.03);
+  border: 1px solid #bd24df;
 }
 
 .flipped-svg {

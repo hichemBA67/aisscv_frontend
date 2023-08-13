@@ -21,6 +21,12 @@ const featuresdata: featuresdata[] = [
     link: "https://git.scc.kit.edu/aiss_cv/yolo_models",
   },
   {
+    imgSrc: "/images/Repos/docker_logo.png",
+    heading: "Docker",
+    subheading: "The Docker environment for development",
+    link: "https://git.scc.kit.edu/aiss_cv/docker-development-environment",
+  },
+  {
     imgSrc: "/images/Architecture/nvidia.png",
     heading: "Jetson Nano",
     subheading:
@@ -46,7 +52,7 @@ const featuresdata: featuresdata[] = [
 const Repos = () => {
   return (
     <div
-      className="mx-auto max-w-7xl my-0 md:my-40 pt-36 px-6 relative"
+      className="mx-auto max-w-3xl my-0 md:my-40 pt-36 px-6 relative"
       id="repos-section"
     >
       <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">
@@ -68,7 +74,7 @@ const Repos = () => {
       <div className="radial-bg hidden lg:block"></div>
 
       <div>
-        <div className="grid md:grid-cols-4 lg:grid-cols-5 gap-x-4 gap-y-4 lg:-mr-56 mt-10">
+        <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-x-1 gap-y-5 lg:-mr-56 mt-10">
           {featuresdata.map((items, i) => (
             <div
               className="bg-blue py-10 pr-12 pl-6 rounded-lg card-link"
@@ -79,8 +85,8 @@ const Repos = () => {
                   <Image
                     src={items.imgSrc}
                     alt={items.imgSrc}
-                    width={24}
-                    height={30}
+                    width={40}
+                    height={40}
                   />
                 </div>
                 <h5 className="text-offwhite text-lg font-medium mb-4">

@@ -432,8 +432,8 @@ th:last-child {
 .card-link {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
-  width: 18rem;
-  height: 18rem;
+  width: 19rem;
+  height: 19rem;
 }
 
 .card-link:hover {

@@ -11,19 +11,20 @@ const featuresdata: featuresdata[] = [
   {
     imgSrc: "/images/Repos/hpc.png",
     heading: "HPC Enabled Frameworks",
-    subheading: "These repository serves as a template for using the HPC.",
+    subheading: "These repositories serves as a template for using the HPC.",
     link: "https://git.scc.kit.edu/aiss_cv/hpc_enabled_frameworks",
   },
   {
     imgSrc: "/images/HPC/yolov8logo.png",
     heading: "YOLO",
-    subheading: "These repository save all trained models.",
+    subheading: "These repositories store all trained models.",
     link: "https://git.scc.kit.edu/aiss_cv/yolo_models",
   },
   {
     imgSrc: "/images/Repos/docker_logo.png",
     heading: "Docker",
-    subheading: "The Docker environment for development",
+    subheading:
+      "This repository contains a Docker environment for development with Jupyter Notebook",
     link: "https://git.scc.kit.edu/aiss_cv/docker-development-environment",
   },
   {
@@ -52,7 +53,7 @@ const featuresdata: featuresdata[] = [
 const Repos = () => {
   return (
     <div
-      className="mx-auto max-w-3xl my-0 md:my-40 pt-36 px-6 relative"
+      className="mx-auto max-w-3xl my-0 md:my-40 pt-30 relative"
       id="repos-section"
     >
       <h3 className="text-center text-3xl lg:text-5xl font-bold text-offwhite mb-3">
@@ -73,32 +74,30 @@ const Repos = () => {
       </p>
       <div className="radial-bg hidden lg:block"></div>
 
-      <div>
-        <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-x-1 gap-y-5 lg:-mr-56 mt-10">
-          {featuresdata.map((items, i) => (
-            <div
-              className="bg-blue py-10 pr-12 pl-6 rounded-lg card-link"
-              key={i}
-            >
-              <a href={items.link} target="_blank">
-                <div className="rounded-full gg h-16 w-16 flex items-center justify-center mb-10">
-                  <Image
-                    src={items.imgSrc}
-                    alt={items.imgSrc}
-                    width={40}
-                    height={40}
-                  />
-                </div>
-                <h5 className="text-offwhite text-lg font-medium mb-4">
-                  {items.heading}
-                </h5>
-                <p className="text-lightblue text-sm font-normal">
-                  {items.subheading}
-                </p>
-              </a>
-            </div>
-          ))}
-        </div>
+      <div className="grid md:grid-cols-3 lg:grid-cols-3 gap-x-1 gap-y-5 lg:-mr-56 mt-10">
+        {featuresdata.map((items, i) => (
+          <div
+            className="bg-blue py-10 pr-12 pl-6 rounded-lg card-link"
+            key={i}
+          >
+            <a href={items.link} target="_blank">
+              <div className="rounded-full gg h-16 w-16 flex items-center justify-center mb-10">
+                <Image
+                  src={items.imgSrc}
+                  alt={items.imgSrc}
+                  width={40}
+                  height={40}
+                />
+              </div>
+              <h5 className="text-offwhite text-lg font-medium mb-4">
+                {items.heading}
+              </h5>
+              <p className="text-lightblue text-sm font-normal">
+                {items.subheading}
+              </p>
+            </a>
+          </div>
+        ))}
       </div>
     </div>
   );

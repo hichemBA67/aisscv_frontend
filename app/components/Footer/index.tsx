@@ -18,11 +18,12 @@ const items: ItemType[] = [
   {
     id: 1,
     section: "Links",
-    title: ["Repositories", "Documentation", "Frontend"],
+    title: ["Repositories", "Documentation", "Frontend", "Demo Video"],
     links: [
       "https://git.scc.kit.edu/aiss_cv",
       "https://git.scc.kit.edu/aiss_cv/documentation",
       "https://aisscv-ui.vercel.app/",
+      "https://www.youtube.com/watch?v=6ERkzYlu3Os",
     ],
   },
 ];
@@ -45,7 +46,8 @@ const footer = () => {
           <div className="col-span-6">
             <h3 className="text-lightblue text-sm font-normal leading-9 mb-4 lg:mb-16">
               {" "}
-              <u>Disclaimer:</u> This website is not the entire documentation.
+              <u>Disclaimer:</u> This website is not the entire documentation.{" "}
+              <br />
               It serves as an illustration of the key aspects of our project and
               documentation.
             </h3>

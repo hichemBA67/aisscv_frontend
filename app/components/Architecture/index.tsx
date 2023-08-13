@@ -46,14 +46,15 @@ const Architecture = () => {
             Architecture
           </h3>
           <p className="text-bluish md:text-lg font-normal leading-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. <br /> Lorem Ipsum has been the industry standard dummy
-            text ever.
+            Our prototye is build on three pillars making up its architecture.
+            They were carefully chosen, <br /> in order to suit the requirements
+            and the use cases of the project.
           </p>
           <small className="text-offwhite">
             <a
               href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/Architecture.md"
               className="hover-underlined"
+              target="_blank"
             >
               Detailed documentation
             </a>

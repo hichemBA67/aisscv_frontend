@@ -39,8 +39,9 @@ const Faq = () => {
         sneak peek. <br />
         <small className="text-offwhite text-center">
           <a
-            href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/"
+            href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/Challenges%26Solutions.md"
             className="hover-underlined"
+            target="_blank"
           >
             Detailed documentation
           </a>

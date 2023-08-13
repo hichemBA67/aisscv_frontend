@@ -11,7 +11,7 @@ body {
   /* background-image: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%); */
   background-image: linear-gradient(
     90deg,
-    rgba(223, 36, 36, 0.5) 0%,
+    rgba(189, 36, 223, 0.5) 0%,
     rgba(45, 106, 222, 0.5) 97.15%
   );
   background-blend-mode: overlay;
@@ -427,4 +427,8 @@ th:last-child {
 .image-link:hover img {
   transform: scale(1.1);
   transition: transform 0.3s;
+}
+
+.flipped-svg {
+  transform: scaleX(-1);
 }

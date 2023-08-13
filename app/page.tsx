@@ -6,6 +6,7 @@ import Features from "./components/Features/index";
 import Simple from "./components/Simple/index";
 import HPC from "./components/HPC/index";
 import Faq from "./components/Faq/index";
+import Learnings from "./components/Learnings/index";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HPC />
       <Simple />
       <Faq />
+      <Learnings />
     </main>
   );
 }

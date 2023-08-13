@@ -3,6 +3,13 @@ import Image from "next/image";
 const UseCase = () => {
   return (
     <>
+      <Image
+        src={"/images/Performance/Untitled.svg"}
+        alt="ellipse"
+        width={2460}
+        height={102}
+        className="md:mb-2 md:-mt-6 flipped-svg"
+      />
       <div className="mx-auto max-w-7xl pt-20 px-6" id="usecase-section">
         <div className="text-center mb-14">
           <h3 className="text-offwhite text-3xl md:text-5xl font-bold mb-3">
@@ -16,6 +23,7 @@ const UseCase = () => {
             <a
               href="https://git.scc.kit.edu/aiss_cv/documentation/-/blob/main/UseCase.md"
               className="hover-underlined"
+              target="_blank"
             >
               Detailed documentation
             </a>
@@ -31,7 +39,7 @@ const UseCase = () => {
             <h2 className="text-xl font-medium text-bluish mb-6">
               Ensuring Every Piece is Present for Lego Robot Assembly
             </h2>
-            <p className="mb-4">
+            <p className="mb-4 text-offwhite">
               The core mission of the completeness check is verifying the
               availability of every required piece for the Lego robot assembly.
               This process involves more than a quick overview. The model is
@@ -50,7 +58,7 @@ const UseCase = () => {
               Intuitive Assembly Assistance: Elevating the Lego Robot Building
               Process
             </h2>
-            <p className="mb-4 text-slate">
+            <p className="mb-4 text-offwhite">
               The assembly guide is designed to reshape the sometimes
               overwhelming and error-prone process of Lego robot building into a
               smooth, interactive, and mistake-proof experience. It offers

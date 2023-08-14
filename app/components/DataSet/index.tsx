@@ -31,7 +31,7 @@ const dataSetData: dataSetData[] = [
     preprocessing: true,
     preprocessingType: ["Auto-orient", "640x640"],
     augementation: false,
-    trainValTestSplit: "4.9/1.4k/837",
+    trainValTestSplit: "4.9k/1.4k/837",
     link: "https://app.roboflow.com/aisscv-ffp8r/aiss_cv-sx8yb/6",
   },
 ];

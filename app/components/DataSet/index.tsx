@@ -27,7 +27,7 @@ const dataSetData: dataSetData[] = [
     link: "https://app.roboflow.com/aisscv-ffp8r/aiss_cv-sx8yb/3",
   },
   {
-    version: "vfinal",
+    version: "v3_0/vfinal",
     preprocessing: true,
     preprocessingType: ["Auto-orient", "640x640"],
     augementation: false,

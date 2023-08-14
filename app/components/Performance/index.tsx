@@ -55,7 +55,7 @@ const performanceData: performanceData[] = [
     weights: "yolov8n.pt",
     modelLink:
       "https://git.scc.kit.edu/aiss_cv/yolo_models/yolov8/-/blob/main/vfinal_640x_16b_300e_V8nW_v8n_best_pt-model/weights/best.pt",
-    epochs: 300,
+    epochs: 296,
     precision: 0.926,
     recall: 0.946,
     map50: 0.966,

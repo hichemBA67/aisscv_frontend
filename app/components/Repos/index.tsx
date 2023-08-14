@@ -15,7 +15,7 @@ const featuresdata: featuresdata[] = [
     link: "https://git.scc.kit.edu/aiss_cv/hpc_enabled_frameworks",
   },
   {
-    imgSrc: "/images/HPC/yolov8logo.png",
+    imgSrc: "/images/Repos/ultralytics_logo.png",
     heading: "YOLO",
     subheading: "These repositories store all trained models.",
     link: "https://git.scc.kit.edu/aiss_cv/yolo_models",

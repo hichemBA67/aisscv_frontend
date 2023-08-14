@@ -18,7 +18,7 @@ const faqdata: faqdata[] = [
   {
     heading: "Training resources",
     subheading: "Weak GPUs & the HPC",
-    text: "Unfortunatly, our group was not blessed by powerful GPUs. This made trying and training different models very time consuming. The HPC was our savior.",
+    text: "Unfortunatly, our group was not blessed with powerful GPUs. This made trying and training different models very time consuming. The HPC was our savior.",
   },
   {
     heading: "Time",

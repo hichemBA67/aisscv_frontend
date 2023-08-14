@@ -1,4 +1,5 @@
 "use client";
+import { link } from "fs";
 import Image from "next/image";
 
 interface Architecturedata {
@@ -6,6 +7,8 @@ interface Architecturedata {
   heading: string;
   subheading: string;
   hiddenpara: string;
+  linkMessage: string;
+  link: string;
 }
 
 const Architecturedata: Architecturedata[] = [
@@ -16,6 +19,8 @@ const Architecturedata: Architecturedata[] = [
       "The Jetson Nano is our system's backbone, leveraging the YOLO model for image analysis.",
     hiddenpara:
       "The Nano continuously processes video streams from the camera feed, enabling real-time object detection. Using WebSockets for efficient real-time communication to the frontend.",
+    linkMessage: "",
+    link: "",
   },
   {
     imgSrc: "/images/Architecture/angular.png",
@@ -24,6 +29,8 @@ const Architecturedata: Architecturedata[] = [
       "Our frontend is built using Angular, focused on a user-centric design.",
     hiddenpara:
       "It offers a user interface for the two use cases. The frontend is optimized for a seamless real-time interactions with the Jetson Nano.",
+    linkMessage: "View here",
+    link: "https://aisscv-ui.vercel.app/",
   },
   {
     imgSrc: "/images/Architecture/flask.png",
@@ -31,6 +38,8 @@ const Architecturedata: Architecturedata[] = [
     subheading: "A RESTful backend aiding in LEGO robot assembly using Flask.",
     hiddenpara:
       "The server offers endpoints which provide instructions based on assembly state, and checking the completeness of LEGO parts. It efficiently bridges the computer vision system with essential data for the LEGO assembly process.",
+    linkMessage: "",
+    link: "",
   },
 ];
 const Architecture = () => {
@@ -81,6 +90,11 @@ const Architecture = () => {
                   className="text-red-500"
                 />
               </div>
+              <a href={items.link} className="hover-underlined" target="_blank">
+                <small className="text-center text-offwhite font-bold">
+                  {items.linkMessage}
+                </small>
+              </a>
               <h3 className="text-2xl text-offwhite font-semibold text-center mt-8">
                 {items.heading}
               </h3>

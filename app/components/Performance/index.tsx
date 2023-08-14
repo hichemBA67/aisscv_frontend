@@ -44,7 +44,7 @@ const performanceData: performanceData[] = [
     precision: 0.933,
     recall: 0.926,
     map50: 0.954,
-    map50_95: 0.842,
+    map50_95: 0.802,
   },
   {
     index: 3,

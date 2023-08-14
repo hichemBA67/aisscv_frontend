@@ -19,7 +19,7 @@ const performanceData: performanceData[] = [
   {
     index: 1,
     model: "YOLOv5",
-    dataset: "v3_0",
+    dataset: "v3_0/vfinal",
     datasetLink: "https://app.roboflow.com/aisscv-ffp8r/aiss_cv-sx8yb/6",
     subModel: "medium",
     weights: "yolov5m.pt",
@@ -34,7 +34,7 @@ const performanceData: performanceData[] = [
   {
     index: 2,
     model: "YOLOv7",
-    dataset: "v3_0",
+    dataset: "v3_0/vfinal",
     datasetLink: "https://app.roboflow.com/aisscv-ffp8r/aiss_cv-sx8yb/6",
     subModel: "tiny",
     weights: "yolov7.pt",
@@ -49,7 +49,7 @@ const performanceData: performanceData[] = [
   {
     index: 3,
     model: "YOLOv8",
-    dataset: "v3_0",
+    dataset: "v3_0/vfinal",
     datasetLink: "https://app.roboflow.com/aisscv-ffp8r/aiss_cv-sx8yb/6",
     subModel: "nano",
     weights: "yolov8n.pt",

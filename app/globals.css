@@ -432,13 +432,13 @@ th:last-child {
 .card-link {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
-  width: 19rem;
-  height: 19rem;
+  width: 20rem;
+  height: 20rem;
 }
 
 .card-link:hover {
   transform: scale(1.03);
-  border: 1px solid #bd24df;
+  border: 1.5px solid #bd24df;
 }
 
 .flipped-svg {

@@ -15,6 +15,7 @@ interface NavigationItem {
 const navigation: NavigationItem[] = [
   { name: "Use Case", href: "#usecase-section", current: false },
   { name: "Architecture", href: "#architecture-section", current: false },
+  { name: "Data Sets", href: "#datasets-section", current: false },
   { name: "Performance", href: "#performance-section", current: false },
   { name: "HPC", href: "#hpc-section", current: false },
   { name: "Challenges", href: "#challenges-section", current: false },
